@@ -1,0 +1,72 @@
+@media only screen and (max-width: 1140px){
+    html, body{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: clip;
+    }
+      .navlist{
+          flex-direction: column;
+      }
+      .navbar{
+          height: 500px;    
+          flex-direction: column;
+          transition: all 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+          position: sticky;
+      }
+      
+      
+      
+      .rightnav{
+          text-align: center;
+      }
+      .boxmain{
+          flex-direction: column-reverse;
+          max-width: 100%;
+      }
+  
+      #search{
+          width: 100%;
+      }
+      .burger{
+        display: block;
+        }
+        .h-nav-resp{
+            height: 72px;
+        }
+        .v-class-resp{
+            opacity: 0;
+        }
+        #services{
+          flex-wrap: wrap;
+        }
+        #services img{
+          width: 66px;
+          padding: 6px ;
+          height: auto;
+        }
+        .section{
+            flex-direction: column-reverse;
+            height: 1%;
+        }
+        .text-small{
+            text-align: center;
+        }
+        .text-big{
+            text-align: center;
+        }
+        .buttons{
+            text-align: center;
+        }
+        .paras{
+            padding: 0px;
+        }
+        .credit{
+          flex-direction: column;
+        }
+        .burger:hover{
+          color: rgba(15, 200, 101, 0.942);
+          
+        }
+        
+      }
